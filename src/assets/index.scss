@@ -1,0 +1,21 @@
+@import './constants/index.scss';
+@import './theme.scss';
+
+.header-comp {
+  padding: 0 $header-component-margin;
+  cursor: pointer;
+  color: #000000d9;
+  &:hover {
+    background-color: var(--system-comp-hover-background-color);
+  }
+}
+
+body {
+  color: var(--system-text-color);
+}
+
+// 下拉菜单图标
+.anticon-down {
+  color: var(--account-text-color);
+  font-size: 10px !important;
+}

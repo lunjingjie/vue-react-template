@@ -1,0 +1,29 @@
+[theme='light'] {
+  /* ---------------------------- tab导航栏 --------------------------------------- */
+  --nav-bar-background-color: #fff; // tab标签页导航栏背景颜色
+  --nav-bar-tab-background-color: #fff; // 导航栏单个标签背景颜色
+  --nav-bar-tab-active-background-color: #e8f4ff; // 导航栏已选中标签背景颜色
+  --nav-bar-tab-hover-background-color: #dee1e6; // 导航栏单个标签hover时背景颜色
+  --nav-bar-tab-close-hover-background-color: #c0c4cc; // 标签关闭按钮hover背景颜色
+
+  /* ---------------------------- 常规 --------------------------------------- */
+  --system-comp-hover-background-color: #f6f6f6;
+  --account-text-color: #000; // 顶部用户名字体颜色
+  --footer-text-color: rgba(0, 0, 0, 0.65); // footer字体颜色
+  --system-text-color: #000; // 常规文字颜色
+}
+
+[theme='dark'] {
+  /* ---------------------------- tab导航栏 --------------------------------------- */
+  --nav-bar-background-color: #000; // tab标签页导航栏背景颜色
+  --nav-bar-tab-background-color: #000; // 导航栏单个标签背景颜色
+  --nav-bar-tab-active-background-color: rgb(34, 34, 34); // 导航栏已选中标签背景颜色
+  --nav-bar-tab-hover-background-color: rgb(20, 20, 20); // 导航栏单个标签hover时背景颜色
+  --nav-bar-tab-close-hover-background-color: #000; // 标签关闭按钮hover背景颜色
+
+  /* ---------------------------- 常规 --------------------------------------- */
+  --system-comp-hover-background-color: rgb(20, 20, 20);
+  --account-text-color: #ffffffd9; // 顶部用户名字体颜色
+  --footer-text-color: #ffffffd9; // footer字体颜色
+  --system-text-color: #ffffffd9; // 常规文字颜色
+}

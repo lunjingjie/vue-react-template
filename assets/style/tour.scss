@@ -1,0 +1,94 @@
+.introjs-tooltip {
+  width: 400px;
+  max-width: 1000px !important;
+}
+.introjs-skipbutton {
+  color: rgba(0, 0, 0, 0.35);
+  outline: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+  padding-right: 16px;
+  padding-top: 0px;
+}
+
+.introjs-prevbutton {
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02),
+    0 2px 4px 0 rgba(0, 0, 0, 0.02);
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  background-clip: padding-box;
+  border-color: #d9d9d9;
+  width: 42px;
+  height: 22px;
+  color: #333;
+  padding: 2px 6px;
+  border: 1px solid rgb(217, 217, 217);
+
+  &:hover {
+    border: 1px solid var(--custom-primary-color);
+    color: var(--custom-primary-color);
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+}
+
+.introjs-nextbutton {
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02),
+    0 2px 4px 0 rgba(0, 0, 0, 0.02) !important;
+  position: relative;
+  background-color: var(--custom-primary-color) !important;
+  border-color: #d9d9d9 !important;
+  background-clip: padding-box;
+  width: 42px;
+  height: 22px;
+  padding: 2px 6px;
+  color: #fff !important;
+
+  &:hover {
+    color: #fff;
+    border-color: #d9d9d9;
+    background-color: var(--custom-primary-color);
+    cursor: pointer;
+  }
+}
+
+.introjs-donebutton {
+  width: 58px !important;
+}
+
+.introjs-button {
+  text-shadow: none;
+  background-color: none;
+}
+
+.introjs-tooltiptext {
+  padding: 0px 16px 0px;
+}
+
+.introjs-tooltip-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.introjs-tooltip-header {
+  padding: 16px 16px 8px;
+}
+
+.introjs-helperLayer {
+  box-shadow: rgb(249 249 249 / 80%) 0px 0px 0px 0px, rgba(33, 33, 33, 0.3) 0px 0px 0px 5000px !important;
+}
+
+.introjs-disabled {
+  display: none !important;
+}
+
+.introjs-bullets ul li a.active {
+  background: #1677ff !important;
+}

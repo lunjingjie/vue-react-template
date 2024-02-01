@@ -1,0 +1,41 @@
+.header-action__item {
+  display: flex !important;
+  height: 48px;
+  padding: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  align-items: center;
+  color: #000000d9;
+  &:hover {
+    background-color: #f6f6f6;
+  }
+}
+
+.app-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.layout-header-logo {
+  height: 48px;
+  min-width: 192px;
+  padding: 0 10px;
+  font-size: 14px;
+
+  img {
+    width: 32px;
+    height: 32px;
+    margin-right: 2px;
+  }
+
+  .app-logo__title {
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .5s;
+    line-height: normal;
+    color: #2E5CF6;
+  }
+}

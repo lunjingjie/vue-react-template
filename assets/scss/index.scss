@@ -1,0 +1,28 @@
+@import './header.scss';
+@import './constants.scss';
+
+.anticon {
+  // display: inline-block;
+  color: inherit;
+  font-style: normal;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// 条件框样式
+.condition-wrap {
+  padding: 12px 10px 2px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 2px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 10px;
+}

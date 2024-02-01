@@ -1,0 +1,75 @@
+// 选择框不能不能换行，保持样式一致
+.custom-select-selection-overflow {
+  flex-wrap: nowrap !important;
+}
+.custom-select-selection-overflow-item {
+  max-width: 80% !important;
+}
+// 地图弹框去掉边框
+.amap-marker-label {
+  position: absolute;
+  z-index: 2;
+  border: none !important;
+  background-color: white;
+  white-space: nowrap;
+  cursor: default;
+  padding: 10px !important;
+  font-size: 12px;
+  line-height: 14px;
+}
+.ant-popover-inner-content {
+  width: 160px !important;
+}
+.ant-calendar.ant-calendar-picker-container-content {
+  width: 300px !important;
+}
+.ant-calendar-date {
+  width: 40px !important;
+  height: 40px;
+  line-height: 16px;
+}
+.custom-spin-nested-loading {
+  height: 100% !important;
+}
+.custom-spin-container {
+  height: 100% !important;
+}
+
+// bpmn流程图去掉a标签
+.bjs-container a {
+  display: none !important;
+}
+
+// 图标默认颜色
+.title-icon {
+  color: var(--custom-primary-color);
+}
+
+.search-label {
+  padding-right: 10px;
+}
+// 设置表格的表头不换行
+.custom-table-thead > tr > th {
+  white-space: nowrap !important;
+}
+
+// 控制滚动条hover显示
+// .custom-scrollbar:hover {
+//   overflow-y: auto;
+// }
+
+// .custom-scrollbar {
+//   overflow-y: hidden;
+// }
+
+// 用于icon后的label
+.icon-label {
+  padding-left: 5px;
+  vertical-align: top;
+}
+
+.custom-card-shadow {
+  box-shadow: 0 3px 3px -2px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, 0.2)),
+    0 3px 4px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0)),
+    0 1px 8px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.1));
+}

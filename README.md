@@ -5,8 +5,11 @@
 基于vue3、react的中后台管理系统模板、系统解决方案，帮助快速初始化前端工程项目；支持快速
 
 传送门：
+
 [vue3（js）](https://github.com/lunjingjie/vue-react-template/tree/vue-3.x-basic)
+
 [vue3（ts）](https://github.com/lunjingjie/vue-react-template/tree/vue-3.x-ts)
+
 [React18（ts）](https://github.com/lunjingjie/vue-react-template/tree/react-18-ts)
 
 ## 功能
@@ -47,8 +50,8 @@ knt create my-project
 
 ## 项目截图
 
-![image-20240204090249357](shotscreen\light.png)
+![image-20240204090249357](shotscreen/light.png)
 
-![image-20240204090230595](shotscreen\dark.png)
+![image-20240204090230595](shotscreen/dark.png)
 
 
